@@ -10,7 +10,8 @@ WORKDIR /projet
 # Copie du projet node dans le dossier /projet
 COPY --chown=node:node portfolio/ .
 
-RUN ls
+# Met en variable d'environnement le port 80 pour http-server & le path où va être lancé le serveur
+ENV PORT=80 PORTFOLIO_URL=/containers/alixjeudi--lemoine-portfolio/
 
 # Installe les dépendances nécéssaires 
 RUN npm install
@@ -20,9 +21,6 @@ RUN npm run build
 
 # Expose le port 80
 EXPOSE 80
-
-# Met en variable d'environnement le port 80 pour http-server
-ENV PORT=80 PORTFOLIO_URL=/containers/alixjeudi--lemoine-portfolio/
 
 # Lance le serveur sur le dossier dist (le projet est build dedans)
 CMD ["http-server", "dist"]
