@@ -2,4 +2,4 @@
 
 # portfolio
 
-A simple template for a web site.
+Portfolio de JEUDI--LEMOINE Alix, BUT 2A, WEB3.
