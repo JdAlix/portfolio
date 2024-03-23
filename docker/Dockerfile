@@ -22,7 +22,7 @@ RUN npm run build
 EXPOSE 80
 
 # Met en variable d'environnement le port 80 pour http-server
-ENV PORT=80
+ENV PORT=80 BASE_URL=/containers/alixjeudi--lemoine-portfolio/
 
 # Lance le serveur sur le dossier dist (le projet est build dedans)
 CMD ["http-server", "dist"]
