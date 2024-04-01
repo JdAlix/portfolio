@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2">
-          <h2 class="mb-4">Bienvenue sur mon portfolio !</h2>
+          <h1 class="mb-4">Bienvenue sur mon portfolio !</h1>
           <p class="lead">Vous trouverez ici des informations sur mes compétences, mon parcours et mes réalisations.</p>
         </div>
       </div>
@@ -11,6 +11,6 @@
 
 <script>
     export default {
-        name: 'HomeView',
+        name: 'HomeView'
     }
 </script>

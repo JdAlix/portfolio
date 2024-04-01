@@ -22,6 +22,7 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  padding-bottom: 50px;
 }
 
 nav {
@@ -29,8 +30,9 @@ nav {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  height: 55px;
 }
 </style>
