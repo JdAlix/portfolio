@@ -10,9 +10,6 @@ WORKDIR /projet
 # Copie du projet node dans le dossier /projet
 COPY --chown=node:node portfolio/ .
 
-# Copie du fichier .http-server.json dans le dossier racine du projet
-COPY .http-server.json .
-
 # Met en variable d'environnement le port 80 pour http-server & le path où va être lancé le serveur
 ENV PORT=80 BASE_URL=/containers/alixjeudi--lemoine-portfolio/
 
