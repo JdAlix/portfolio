@@ -1,5 +1,5 @@
 <template>
-    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal modal-zoom fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -98,5 +98,8 @@
 }
 .nav-link.active {
   font-weight: bold; /* Style de la police pour indiquer la page active */
+}
+.modal.modal-zoom.fade:not(.show) .modal-dialog {
+  transform: scale(.8);
 }
 </style>
