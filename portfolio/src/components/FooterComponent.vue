@@ -1,6 +1,6 @@
 <template>
-    <footer class="footer mt-auto py-3 bg-body-tertiary">
-        <div class="container">
+    <footer class="footer mt-auto bg-body-tertiary d-flex align-items-center justify-content-center">
+        <div class="container text-center">
             <span class="text-muted">© 2024 Alix JEUDI--LEMOINE. Tous droits réservés.</span>
             
             <a href="https://linkedin.alix-jdlm.fr" target="_blank">
@@ -21,7 +21,6 @@
         name: 'FooterComponent'
     }
 </script>
-
 
 <style>
 .footer a {
