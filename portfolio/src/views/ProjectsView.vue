@@ -29,8 +29,10 @@
                 Clermont-Ferrand, afin de mettre en place une simulation d'entreprise gérée par les étudiants.
                 Il répond à un besoin établi par un client, un professeur de l'IUT, ici <em>Mme Anaïs Durand</em>
                 dans le rôle du Product Owner, tout cela encadré par notre tutrice de projet
-                <em>Mme Audrey Pouclet</em>(professeure de gestion).
+                <em>Mme Audrey Pouclet</em> (professeure de gestion).
               </p>
+
+              <!-- /!\ Dépassement des 15 lignes autorisées /!\
               <p>
                 Les mini-jeux retenus sont les suivants:
 
@@ -49,6 +51,8 @@
                   </li>
                 </ul>
               </p>
+              -->
+
               <p>
                 J'ai principalement été en charge de la partie développement de l'API REST (respectant HATEOAS),
                 en utilisant le framework Springboot. 
@@ -82,9 +86,11 @@
                 </div>
               </div>
 
+              <!-- /!\ Dépassement /!\
               <img src="@/assets/projets/sae_34/6.png"
                    alt="Visuel d'un résultat affiché par l'API REST"
                    class="w-100 mb-4">
+              -->
             </div>
             
           </div>
