@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row align-items-center mt-5">
-      <div class="col-md-3">
+      <div class="col-md-3 mb-3">
         <!-- Div pour la photo -->
         <div class="rounded-circle overflow-hidden">
           <img src="@/assets/me.jpg" alt="Alix JEUDI" class="w-100">
@@ -11,7 +11,7 @@
         <!-- Contenu du texte -->
         <div>
           <h1>Alix JEUDI</h1>
-          <h4>Étudiant en 2ème année de BUT Informatique et alternant à la CARSAT Auvergne</h4>
+          <h4 class="mb-3">Étudiant en 2ème année de BUT Informatique et alternant à la CARSAT Auvergne</h4>
           <p>
             Bienvenue sur mon portfolio ! Je suis passionné par le développement web et les technologies de l'information.
             
