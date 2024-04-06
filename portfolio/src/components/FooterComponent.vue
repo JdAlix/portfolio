@@ -17,13 +17,13 @@
             <span class="text-muted">© 2024 Alix JEUDI--LEMOINE. Tous droits réservés.</span>
             
             <a :href="linkedin" rel="noopener" target="_blank">
-                <i class="bi bi-linkedin"></i>
+                <em class="bi bi-linkedin"></em>
             </a>
             <a :href="github" rel="noopener" target="_blank">
-                <i class="bi bi-github"></i>
+                <em class="bi bi-github"></em>
             </a>
             <a :href="email">
-                <i class="bi bi-envelope"></i>
+                <em class="bi bi-envelope"></em>
             </a>
         </div>
     </footer>
