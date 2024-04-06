@@ -8,13 +8,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <router-link to="/about" class="nav-link">À propos</router-link>
+                    <router-link to="/about" class="nav-link" exact :class="{ 'active': $route.path === '/about' }">À propos</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/cv" class="nav-link">CV</router-link>
+                    <router-link to="/cv" class="nav-link" exact :class="{ 'active': $route.path === '/cv' }">CV</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/projects" class="nav-link">Projets</router-link>
+                    <router-link to="/projects" class="nav-link" exact :class="{ 'active': $route.path === '/projects' }">Projets</router-link>
                 </li>
                 </ul>
                 <div class="ml-auto">
@@ -54,5 +54,8 @@
 .bi-lightbulb::before {
   content: "\f46b"; /* Code Unicode pour l'icône de la lampe */
   font-family: "bootstrap-icons"; /* Police d'icônes Bootstrap */
+}
+.nav-link.active {
+  font-weight: bold; /* Style de la police pour indiquer la page active */
 }
 </style>
