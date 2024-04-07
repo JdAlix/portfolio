@@ -122,14 +122,15 @@
                 Avec une camarade nous avons créés un projet de composition de services web pour
                 gérer les demandes de prêt. Pour ce faire, nous avons utilisés Maven, Springboot et PHP Slim.
                 Ma camarade a implémentée les services AccManager et AppManager en Java avec Springboot,
-                de mon côté j'ai créé le service LoanApproval en PHP Slim. 
+                de mon côté j'ai créé le service LoanApproval en PHP Slim (+ Guzzle).
               </p>
               <p>
-                J'ai veillé à associer chaque entité avec un ID et à les lier ensemble. 
-                J'ai testé chaque service avec Postman, en m'assurant qu'ils fonctionnent sur des ports différents.
-                J'ai intégré un proxy si nécessaire. J'ai contrôlé la gestion des erreurs en transmettant
-                les exceptions ou réponses avec des statuts >= 400 entre services jusqu'au client final.
-                Enfin, j'ai créé un client Guzzle pour utiliser la composition.
+                J'ai testé chaque service avec Postman, en m'assurant qu'ils fonctionnent et qu'ils
+                ont bien le comportement attendu. J'ai également créé un client Guzzle au sein du service LoanApproval
+                qui permet de communiquer avec les services AccManager et AppManager, 
+                auquel j'ai intégré l'utilisation du proxy de l'université, nécéssaire pour la communication entre machines.
+                J'ai contrôlé la gestion des erreurs en transmettant les exceptions ou réponses avec des statuts >= 400
+                entre services jusqu'au client final.
               </p>
 
               <div class="text-center">
