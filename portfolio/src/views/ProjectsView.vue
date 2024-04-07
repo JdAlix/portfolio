@@ -60,7 +60,7 @@
                 le site web sur un serveur de l'Université, en utilisant l'outil de CI/CD Drone.
               </p>
 
-              <img src="@/assets/projets/sae_34/1.png"
+              <img src="@/assets/projets/sae_34/1.jpeg"
                    alt="Schéma de la conception du projet"
                    class="w-100">
             </div>
@@ -190,10 +190,10 @@
             </div>
             
             <div class="col-md-4">
-              <img src="@/assets/projets/admissions_iut/3.png" alt="IUT" class="w-100">
+              <img src="@/assets/projets/admissions_iut/3.jpeg" alt="IUT" class="w-100">
             </div>
             
-            <img src="@/assets/projets/admissions_iut/2.png" alt="IUT" class="w-100">
+            <img src="@/assets/projets/admissions_iut/2.jpeg" alt="IUT" class="w-100">
           </div>
         </div>
 
