@@ -7,7 +7,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Ce portfolio a été réalisé dans le cadre de ma fin de 2ème année de BUT Informatique.</p>
+                    <p>Ce portfolio a été réalisé dans le cadre de ma 2ème année de BUT Informatique.</p>
 
                     <p>
                         Il a entièrement été développé en Vue.js, 
