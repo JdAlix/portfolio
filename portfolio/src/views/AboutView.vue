@@ -4,7 +4,7 @@
       <div class="col-md-8 offset-md-2">
         <div class="card">
           <div class="card-body">
-            <h1 class="card-title mb-3">À propos de moi</h1>
+            <h1 class="card-title mb-4">À propos de moi</h1>
             <p>
               Dans le cadre de mon parcours universitaire en Bachelor universitaire de technologie,
               spécialisé en informatique, je m'engage pleinement à développer mes compétences
