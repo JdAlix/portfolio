@@ -11,11 +11,14 @@
         <!-- Contenu du texte -->
         <div>
           <h1>Alix JEUDI</h1>
-          <h4 class="mb-3">Étudiant en 2ème année de BUT Informatique et alternant à la CARSAT Auvergne</h4>
+          <h4 class="mb-3">Étudiant en 3ème année de BUT Informatique et alternant à la CARSAT Auvergne</h4>
           <p>
-            Bienvenue sur mon portfolio !
-            Je suis passionné par le développement web et les technologies de l'information.
-            
+            Animé par une passion pour l'administration système et la sécurité informatique,
+            je suis un actuellement étudiant en dernière année de BUT Informatique,
+            et également en alternance à la CARSAT Auvergne, où j'ai l'opportunité de mettre en pratique
+            mes compétences et d'acquérir une expérience précieuse dans le domaine.
+          </p>
+          <p>
             Dans ce portfolio, vous trouverez des informations sur mes compétences,
             mon parcours académique et professionnel, ainsi que mes projets réalisés.
           </p>
