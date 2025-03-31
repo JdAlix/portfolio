@@ -3,6 +3,7 @@ import AboutView from '@/views/AboutView.vue'
 import CvView from '@/views/CvView.vue'
 import ProjectsView from '@/views/ProjectsView.vue'
 import HomeView from '@/views/HomeView.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
 
 const routes = [
   {
@@ -24,7 +25,12 @@ const routes = [
     path: '/projects',
     name: 'Projects',
     component: ProjectsView
-  }
+  },
+  {
+    path: "/:catchAll(.*)",
+    name: "NotFound",
+    component: NotFoundView
+  },
 ]
 
 const router = createRouter({
