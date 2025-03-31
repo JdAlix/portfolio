@@ -1,18 +1,18 @@
 <template>
-    <div class="modal modal-zoom fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal modal-zoom fade" id="myModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">A propos</h5>
+                    <h5 class="modal-title" id="aboutModalLabel">À propos</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Ce portfolio a été réalisé dans le cadre de ma 2ème année de BUT Informatique.</p>
+                    <p>Ce portfolio a été réalisé dans le cadre de ma 2ème et 3ème année de BUT Informatique.</p>
 
                     <p>
                         Il a entièrement été développé en Vue.js, 
                         utilise VueRouter pour la navigation entre les différentes pages
-                        et Bootstrap 5 pour le style.
+                        et Bootstrap 5 pour l'habillage.
                     </p>
                 </div>
             </div>
