@@ -90,7 +90,7 @@
           </div>
 
           <div class="card-footer text-center">
-            <a href="https://codefirst.iut.uca.fr/git/tom.biard/ScienceQuest"
+            <a href="https://codefirst.iut.uca.fr/git/SAE3A_MemoryMap"
               rel="noopener"
               target="_blank" 
               class="btn btn-primary">
@@ -107,39 +107,87 @@
 
           <div class="card-body mt-4">
             <div class="row mb-4">
-              <div class="col-md-12 align-items-center">
+              <div class="col-md-4">
+                <img src="@/assets/projets/webpart_sharepoint/logo_carsat.png"
+                  alt="Logo de la CARSAT Auvergne"
+                  class="w-100 mb-4">
+
+                <div class="row">
+                  <img src="@/assets/projets/webpart_sharepoint/final.png"
+                    alt="Visuel d'un bout de la documentation de l'API"
+                    class="mt-2"
+                    id="api-doc">
+                  <label for="api-doc" class="text-center mb-4 mt-1">
+                    <i>Rendu final du tableau</i>
+                  </label>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="@/assets/projets/webpart_sharepoint/list_selector.png"
+                      alt="Visuel fenêtre ajout de souvenir avec détection localisation de la photo"
+                      class="w-100 mb-1">
+                  </div>
+                  <div class="col-md-6">
+                    <img src="@/assets/projets/webpart_sharepoint/list_selector_filled.png"
+                      alt="Visuel fenêtre liste d'amis"
+                      class="w-100 mb-1">
+                  </div>
+                  <label class="text-center">
+                    <i>Configuration de la WebPart (2<sup>ème</sup> page) avec détection automatique des listes du site</i>
+                  </label>
+                </div>
+        
+              </div>
+
+              <div class="col-md-8">
                 <h2 class="mb-4 text-center">
-                  <strong>Composition de services</strong>
+                  <strong>Création et développement d'une WebPart</strong>
                 </h2>
 
                 <h4 class="mb-3">
                   <u>Objectif :</u>
-                  développer une composition de services web (gestion de prêts) avec contrôle d'erreurs.
+                  développer une extension "WebPart" pour un site SharePoint Online utilisant les données d'une liste SharePoint à travers une API REST.
                 </h4>
 
                 <p>
-                  Avec une camarade nous avons créés un projet de composition de services web pour
-                  gérer les demandes de prêt. Pour ce faire, nous avons utilisés Maven, Springboot et PHP Slim.
-                  Ma camarade a implémentée les services AccManager et AppManager en Java avec Springboot,
-                  de mon côté j'ai créé le service LoanApproval en PHP Slim (+ Guzzle).
-                </p>
-                <p>
-                  J'ai testé chaque service avec Postman, en m'assurant qu'ils fonctionnent et qu'ils
-                  ont bien le comportement attendu. J'ai également créé un client Guzzle au sein du service LoanApproval
-                  qui permet de communiquer avec les services AccManager et AppManager, 
-                  auquel j'ai intégré l'utilisation du proxy de l'université, nécéssaire pour la communication entre machines.
-                  J'ai contrôlé la gestion des erreurs en transmettant les exceptions ou réponses avec des statuts >= 400
-                  entre services jusqu'au client final.
+                  Dans le cadre de la migration du système d'information de la CARSAT Auvergne de SharePoint 2010 à SharePoint Online,
+                  un des sites utilisés par le département retraite comportait une fonctionnalité "Tableau" non portée vers la nouvelle version,
+                  sauf en utilisant des outils comme
+                  <a href="https://api.memorymap.fr/docs" target="_blank">
+                  ShareGate
+                  <em class="bi bi-box-arrow-up-right"></em>
+                  </a>,
+                  qui permettent de migrer les données d'un site à un autre tout en conservant les fonctionnalités, mais aussi...
+                  le look et le ressenti old-school.
                 </p>
 
-                <div class="text-center">
-                  <figure>
-                    <a :href="composition_service" target="_blank">
-                      <img src="@/assets/projets/composition_services/1.png" alt="IUT" class="w-50">
-                    </a>
-                    <figcaption>Cliquez sur l'image pour l'agrandir</figcaption>
-                  </figure>
-                </div>
+                <p>
+                  J'ai donc été missionné pour développer une WebPart permettant de reproduire cette fonctionnalité,
+                  tout en ajoutant des options supplémentaires, comme la possibilité de filtrer les données,
+                  visionner les documents sans avoir à les télécharger, et puiser les données de l'API REST SharePoint.
+                </p>
+
+                <p>
+                  Ce projet m'a permis de découvrir le développement SPFX (SharePoint Framework) et l'environnement de développement
+                  propre à Microsoft. Pour ce projet, j'ai utilisé le framework React, ainsi que la bibliothèque Material UI
+                  pour le visuel du tableau.
+                </p>
+
+                <p>
+                  Aujourd'hui, la WebPart est utilisée par le département retraite de la CARSAT Auvergne, mais aussi par une autre
+                  caisse séduite par le projet et par le côté "clé en main" de la WebPart, pensée pour être facilement
+                  intégrée dans n'importe quel site SharePoint Online avec très peu de configuration, comme vous pouvez le voir
+                  sur les captures d'écran du menu de configuration.
+                </p>
+
+                <img src="@/assets/projets/webpart_sharepoint/workbench.png"
+                    alt="Visuel d'un bout de la documentation de l'API"
+                    class="mt-2 w-100"
+                    id="api-doc">
+                  <label for="api-doc" class="text-center mb-4 mt-1">
+                    <i>Configuration (1<sup>ère</sup> page) lors de l'insertion dans une page SharePoint</i>
+                  </label>
               </div>
             </div>
           </div>
@@ -148,8 +196,8 @@
             <a href="https://codefirst.iut.uca.fr/git/alix.jeudi--lemoine/SAE105_2022_JOURDAIN_PACZKOWSKI_JEUDI"
               rel="noopener"
               target="_blank" 
-              class="btn btn-primary">
-              Voir le projet
+              class="btn btn-danger disabled">
+              Impossible de voir le projet (confidentiel)
             </a>
           </div>
         </div>
