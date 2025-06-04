@@ -44,7 +44,7 @@
                     <p>
                       Ce projet a été établi tout au long de ma 3ème année au sein du BUT Informatique de
                       Clermont-Ferrand, afin de mettre en place une simulation d'entreprise gérée par les étudiants.
-                      Pour ce projet, nous avons l'honneur d'être encadrés par <a href="https://limos.fr/detailperson/310" target="_blank">
+                      Pour ce projet, nous avons l'honneur d'être encadrés par <a href="https://limos.fr/detailperson/310" target="_blank" rel="noopener">
                         <em>M. François Delobel </em>
                         <em class="bi bi-box-arrow-up-right"></em>
                       </a>
@@ -64,7 +64,7 @@
                         id="map">
                     <label for="map" class="mb-4">
                       Visuel de la carte MemoryMap
-                      <a href="https://memorymap.fr" target="_blank">
+                      <a href="https://memorymap.fr" target="_blank" rel="noopener">
                         <em class="bi bi-box-arrow-up-right"></em>
                       </a>
                     </label>
@@ -83,7 +83,7 @@
                         id="api-doc">
                     <label for="api-doc">
                       Documentation de l'API 
-                      <a href="https://api.memorymap.fr/docs" target="_blank">
+                      <a href="https://api.memorymap.fr/docs" target="_blank" rel="noopener">
                         <em class="bi bi-box-arrow-up-right"></em>
                       </a>
                     </label>
@@ -157,7 +157,7 @@
                       Dans le cadre de la migration du système d'information de la CARSAT Auvergne de SharePoint 2010 à SharePoint Online,
                       un des sites utilisés par le département retraite comportait une fonctionnalité "Tableau" non portée vers la nouvelle version,
                       sauf en utilisant des outils comme
-                      <a href="https://www.sharegate.com/fr" target="_blank">
+                      <a href="https://www.sharegate.com/fr" target="_blank" rel="noopener">
                         ShareGate
                         <em class="bi bi-box-arrow-up-right"></em>
                       </a>,
@@ -233,9 +233,9 @@
                       Ce projet a été établi tout au long de ma 2ème année au sein du BUT Informatique de
                       Clermont-Ferrand, afin de mettre en place une simulation d'entreprise gérée par les étudiants.
                       Il répond à un besoin établi par un client, un professeur de l'IUT, en l'occurence 
-                      <a href="https://sancy.iut.uca.fr/~durand/fr/"><em>Mme Anaïs Durand</em></a>
+                      <a href="https://sancy.iut.uca.fr/~durand/fr/" target="_blank" rel="noopener"><em>Mme Anaïs Durand</em></a>
                       dans le rôle du Product Owner, tout cela encadré par notre tutrice de projet
-                      <a href="https://fr.linkedin.com/in/audrey-pouclet-29645a43"><em>Mme Audrey Pouclet</em></a> (professeure de gestion).
+                      <a href="https://fr.linkedin.com/in/audrey-pouclet-29645a43" target="_blank" rel="noopener"><em>Mme Audrey Pouclet</em></a> (professeure de gestion).
                     </p>
                     <p>
                       J'ai principalement été en charge de la partie développement de l'API REST (respectant HATEOAS),

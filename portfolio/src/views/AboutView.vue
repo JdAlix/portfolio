@@ -20,18 +20,18 @@
             </p>
             <p class="text-justify">
               Mon expérience en alternance à la 
-              <a href="https://www.carsat-auvergne.fr" target="_blank">CARSAT <em class="bi bi-box-arrow-up-right"></em></a>
+              <a href="https://www.carsat-auvergne.fr" target="_blank" rel="noopener">CARSAT <em class="bi bi-box-arrow-up-right"></em></a>
               (Caisse d'Assurance Retraite et de Santé au Travail)
               m'a permis de développer des compétences pratiques en informatique, notamment en travaillant
               sur des <strong>serveurs internes</strong> et des <strong>applications critiques</strong>.<br>
               J'ai également eu l'opportunité d'explorer des technologies comme PowerShell,
-              <a href="https://react.dev/" target="_blank">React <em class="bi bi-box-arrow-up-right"></em></a>,
+              <a href="https://react.dev/" target="_blank" rel="noopener">React <em class="bi bi-box-arrow-up-right"></em></a>,
               et l'environnement <strong>Microsoft 365</strong>,
               tout en apprenant l'importance de la <u>fiabilité</u> et de la <u>sécurité</u> dans les systèmes informatiques.
             </p>
             <p class="text-justify">
               Mon objectif est de poursuivre mes études en intégrant un 
-              <a href="https://formation.cnam.fr/rechercher-par-discipline/master-securite-informatique-cybersecurite-et-cybermenaces-1338264.kjsp" target="_blank">Master spécialisé en sécurité informatique <em class="bi bi-box-arrow-up-right"></em></a>.<br>
+              <a href="https://formation.cnam.fr/rechercher-par-discipline/master-securite-informatique-cybersecurite-et-cybermenaces-1338264.kjsp" target="_blank" rel="noopener">Master spécialisé en sécurité informatique <em class="bi bi-box-arrow-up-right"></em></a>.<br>
               Je souhaite approfondir mes connaissances dans ce domaine, en particulier sur les aspects liés
               à la <u>protection des systèmes</u>, la <u>gestion des risques</u> et la <u>cybersécurité</u>.
               Je suis motivé par l'idée de contribuer à la <strong>sécurisation des infrastructures numériques</strong>
