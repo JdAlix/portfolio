@@ -50,12 +50,6 @@
   </div>
 </template>
 
-<style scoped>
-.text-justify {
-  text-align: justify;
-}
-</style>
-
 <script>
     export default {
         name: 'AboutView',

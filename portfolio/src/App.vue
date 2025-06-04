@@ -40,6 +40,10 @@ footer {
   height: 55px;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s ease-in-out;
