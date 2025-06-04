@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row align-items-center mt-5">
-      <div class="col-md-3 mb-3">
+      <div class="col-md-3 mb-3 d-flex justify-content-center">
         <!-- Div pour la photo -->
         <div class="rounded-circle overflow-hidden w-75">
           <img src="@/assets/me.jpg" alt="Alix JEUDI" class="w-100">
