@@ -1,10 +1,5 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="mb-4 text-center">Mon CV</h1>
-      </div>
-    </div>
+  <div class="container pt-5">
     <div class="row">
       <div class="col-md-12">
         <!-- Image du CV -->
@@ -60,22 +55,22 @@ export default {
 </script>
 
 <style scoped>
-/* Style pour les flèches */
-.arrow {
-  position: absolute;
-  top: 20%;
-  font-size: 2rem;
-  color: #007bff; /* Couleur de la flèche */
-}
-
-.left-arrow {
-  left: -20%;
-}
-
-/* En dessous de 1800px de large, ne pas afficher la flèche */
-@media (max-width: 1800px) {
+  /* Style pour les flèches */
   .arrow {
-    display: none;
+    position: absolute;
+    top: 20%;
+    font-size: 2rem;
+    color: #007bff; /* Couleur de la flèche */
   }
-}
+
+  .left-arrow {
+    left: -20%;
+  }
+
+  /* En dessous de 1800px de large, ne pas afficher la flèche */
+  @media (max-width: 1800px) {
+    .arrow {
+      display: none;
+    }
+  }
 </style>
