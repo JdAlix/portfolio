@@ -44,17 +44,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item ps-2">
                         <router-link to="/about" class="nav-link" exact :class="{ 'active': $route.path === '/about' }">
                             À propos
                         </router-link>
                     </li>
-                    <li class="nav-item ms-2">
+                    <li class="nav-item ps-2">
                         <router-link to="/cv" class="nav-link" exact :class="{ 'active': $route.path === '/cv' }">
                             CV
                         </router-link>
                     </li>
-                    <li class="nav-item ms-2">
+                    <li class="nav-item ps-2">
                         <router-link to="/projects"
                                     class="nav-link" exact :class="{ 'active': $route.path === '/projects' }">
                             Projets
