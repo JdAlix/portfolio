@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <div class="row align-items-center mt-5">
-      <div class="col-md-3 mb-3">
+      <div class="col-md-3 mb-4">
         <!-- Div pour la photo -->
-        <div class="rounded-circle overflow-hidden">
+        <div class="rounded-circle overflow-hidden w-75">
           <img src="@/assets/me.jpg" alt="Alix JEUDI" class="w-100">
         </div>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-9 mt-4">
         <!-- Contenu du texte -->
         <div>
           <h1>Alix JEUDI</h1>
@@ -57,18 +57,8 @@
   </div>
 </template>
 
-<style scoped>
-/* Style pour arrondir les coins de l'image */
-.rounded-circle {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 150px;
-  height: 150px;
-}
-</style>
-
 <script>
-export default {
-  name: 'HomeView'
-}
+  export default {
+    name: 'HomeView'
+  }
 </script>
