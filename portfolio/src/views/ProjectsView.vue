@@ -36,10 +36,10 @@
                     </h4>
 
                     <p>
-                      Cette année, nos professeurs nous ont laissé libre champ, la seule consigne était de trouver 
-                      un professeur approuvant notre idée et acceptant de nous tutorer. Avec mon groupe, nous avons
+                      Cette année, nos encadrants nous ont laissé libre champ, la seule consigne était de trouver
+                      un encadrant approuvant notre idée et acceptant de nous tutorer. Avec mon groupe, nous avons
                       imaginés MemoryMap, une plateforme en ligne permettant de stocker et de partager des souvenirs
-                      avec nos proches, le tout sur la carte du monde afin de retrouver 
+                      avec nos proches, le tout sur la carte du monde afin de les retrouver facilement.
                     </p>
                     <p>
                       Ce projet a été établi tout au long de ma 3ème année au sein du BUT Informatique de
