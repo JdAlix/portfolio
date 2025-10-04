@@ -4,8 +4,8 @@
         data() {
             return {
                 linkedin: 'https://linkedin.alix-jdlm.fr',
-                git: 'https://codefirst.iut.uca.fr/git/alix.jeudi--lemoine',
-                email: 'mailto:alix.jeudi--lemoine@etu.uca.fr'
+                git: 'https://github.com/JdAlix/',
+                email: 'mailto:alix.jeudi@icloud.com'
             };
         }
     }

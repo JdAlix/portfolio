@@ -93,11 +93,17 @@
               </div>
 
               <div class="card-footer text-center">
-                <a href="https://codefirst.iut.uca.fr/git/SAE3A_MemoryMap"
+                <a href="https://github.com/JdAlix/MemoryMap-api"
                   rel="noopener"
                   target="_blank" 
                   class="btn btn-primary">
-                  Voir le projet
+                  Voir le projet API
+                </a>
+                <a href="https://github.com/JdAlix/MemoryMap-front"
+                  rel="noopener"
+                  target="_blank" 
+                  class="btn btn-primary ms-2">
+                  Voir le projet Front
                 </a>
               </div>
             </div>
@@ -196,7 +202,7 @@
               </div>
 
               <div class="card-footer text-center">
-                <a href="https://codefirst.iut.uca.fr/git/alix.jeudi--lemoine/SAE105_2022_JOURDAIN_PACZKOWSKI_JEUDI"
+                <a href="#"
                   rel="noopener"
                   target="_blank" 
                   class="btn btn-danger disabled">
@@ -275,7 +281,7 @@
               </div>
 
               <div class="card-footer text-center">
-                <a href="https://codefirst.iut.uca.fr/git/tom.biard/ScienceQuest"
+                <a href="https://github.com/JdAlix/ScienceQuest"
                   rel="noopener"
                   target="_blank" 
                   class="btn btn-primary">
@@ -330,7 +336,7 @@
               </div>
 
               <div class="card-footer text-center">
-                <a href="https://codefirst.iut.uca.fr/git/alix.jeudi--lemoine/SAE105_2022_JOURDAIN_PACZKOWSKI_JEUDI"
+                <a href="https://github.com/JdAlix/CompositionServicesSalva"
                   rel="noopener"
                   target="_blank" 
                   class="btn btn-primary">
@@ -384,7 +390,7 @@
               </div>
 
               <div class="card-footer text-center">
-                <a href="https://codefirst.iut.uca.fr/git/alix.jeudi--lemoine/SAE102_2022_GOIGOUX_JEUDI"
+                <a href="https://github.com/JdAlix/SAE102_2022_GOIGOUX_JEUDI"
                   rel="noopener"
                   target="_blank"
                   class="btn btn-primary">
@@ -432,7 +438,7 @@
               </div>
 
               <div class="card-footer text-center">
-                <a href="https://codefirst.iut.uca.fr/git/alix.jeudi--lemoine/SAE105_2022_JOURDAIN_PACZKOWSKI_JEUDI"
+                <a href="https://github.com/JdAlix/SAE105_2022_JOURDAIN_PACZKOWSKI_JEUDI"
                   rel="noopener"
                   target="_blank"
                   class="btn btn-primary">
