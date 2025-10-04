@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+  portfolio:
+    container_name: portfolio
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    image: node:lts-alpine
+    labels:
+      - "traefik.enable=true"
+      ## HTTP Routers
+      - "traefik.http.routers.portfolio-http-rtr.entrypoints=web"
+      - "traefik.http.routers.portfolio-http-rtr.rule=Host(`alix-jdlm.fr`, `www.alix-jdlm.fr`)"
+      ## HTTP Services
+      - "traefik.http.routers.portfolio-http-rtr.service=portfolio-svc"
+      - "traefik.http.services.portfolio-svc.loadbalancer.server.port=80"
+    restart: always
