@@ -20,7 +20,7 @@
 
                     <p class="mb-1">
                         Le code source de celui-ci est disponible sur
-                        <a href="https://codefirst.iut.uca.fr/git/alix.jeudi--lemoine/portfolio" class="link-primary align-items-center ms-1" target="_blank" rel="noopener">
+                        <a href="https://github.com/JdAlix/portfolio" class="link-primary align-items-center ms-1" target="_blank" rel="noopener">
                             <img src="@/assets/logo_codefirst.png" class="img-fluid" alt="Logo CodeFirst">
                         </a>
                     </p>
