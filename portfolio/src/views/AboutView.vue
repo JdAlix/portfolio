@@ -31,19 +31,17 @@
               tout en apprenant l'importance de la <u>fiabilité</u> et de la <u>sécurité</u> dans les systèmes informatiques.
             </p>
             <p class="text-justify">
-              Mon objectif est de poursuivre mes études en intégrant une 
-              <a href="https://admission.umontreal.ca/programmes/maitrise-en-informatique/" target="_blank" rel="noopener">Maîtrise spécialisée en Apprentissage automatique <em class="bi bi-box-arrow-up-right"></em></a> au Québec.<br>
-              Je souhaite approfondir mes connaissances dans ce domaine, en particulier sur les aspects liés 
-              à l'<u>apprentissage automatique</u>, la <u>modélisation des données</u> et le <u>développement d'applications intelligentes</u>. 
-              Je suis motivé par l'idée de contribuer à la <strong>mise en œuvre concrète de solutions basées sur l'intelligence artificielle</strong> 
-              et de relever les défis techniques posés par l'analyse et l'exploitation de grandes quantités de données.
+              Mon objectif est de poursuivre mes études en intégrant la <a href="https://www.efrei.fr/formation/filieres-en-apprentissage/" target="_blank" rel="noopener">filière apprentissage de l'EFREI</a> à Villejuif, en région parisienne, avec la majeure <strong>Logiciels et Systèmes d'information</strong>.
+              Cette formation d’ingénieur en alternance forme des professionnels capables de concevoir, développer et piloter des solutions numériques innovantes,
+              en associant compétences techniques et expérience en entreprise.
+              Je veux approfondir mes connaissances en développement logiciel, en systèmes d'information, en intégration cloud et en méthodes DevOps,
+              tout en travaillant sur des projets concrets qui soutiennent la transformation digitale des organisations.
             </p>
             <p class="text-justify">
-              Convaincu que cette spécialisation me permettra de renforcer mes <strong>compétences techniques</strong>
-              et de mieux comprendre les enjeux de l'<u>intelligence artificielle appliquée</u>,
-              je suis déterminé à continuer à apprendre et à évoluer dans ce domaine en pleine expansion,
+              Convaincu que cette filière me permettra de renforcer mes <strong>compétences techniques</strong>
+              et ma maturité professionnelle, je suis déterminé à continuer à apprendre et à évoluer dans le domaine des systèmes d'information,
               tout en collaborant avec des équipes passionnées pour développer des solutions
-              <em>innovantes</em> et <strong>intelligentes</strong> répondant à des besoins concrets.
+              <em>robustes</em> et <strong>adaptées</strong> aux besoins réels des entreprises.
             </p>
           </div>
         </div>
