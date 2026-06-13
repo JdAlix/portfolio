@@ -11,7 +11,7 @@ services:
       - "traefik.enable=true"
       ## HTTP Routers
       - "traefik.http.routers.portfolio-http-rtr.entrypoints=web"
-      - "traefik.http.routers.portfolio-http-rtr.rule=Host(`alix-jdlm.fr`, `www.alix-jdlm.fr`)"
+      - "traefik.http.routers.portfolio-http-rtr.rule=Host(`alix-jdlm.fr`) || Host(`www.alix-jdlm.fr`)"
       ## HTTP Services
       - "traefik.http.routers.portfolio-http-rtr.service=portfolio-svc"
       - "traefik.http.services.portfolio-svc.loadbalancer.server.port=80"
